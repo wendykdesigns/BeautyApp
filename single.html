@@ -1,0 +1,684 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>Beauty Spot App A Mobile App Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Beauty Spot App Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android  Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<meta charset utf="8">
+        <!--font-awsome-css-->
+           <link rel="stylesheet" href="css/font-awesome.min.css"> 
+		<!--bootstrap-->
+			<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<!--custom css-->
+			<link rel="stylesheet" href="css/jquery-ui.css" />
+			<link href="css/style.css" rel="stylesheet" type="text/css"/>
+			
+        <!--component-css-->
+			<script src="js/jquery-2.1.4.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/Chart.js"></script>
+			 <!--script-->
+            <script src="js/bigSlide.js"></script>
+            <script>
+				$(document).ready(function() {
+				$('.menu-link').bigSlide();
+				});
+            </script>
+            <!--script-->
+			
+		<!---start-date-piker---->
+			
+				<script src="js/jquery-ui.js"></script>
+				    <script>
+											  $(function() {
+												$( "#datepicker,#datepicker1" ).datepicker();
+											  });
+					</script>
+		<!---/End-date-piker---->
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+		
+		<!--script-->
+		<link href='//fonts.googleapis.com/css?family=Rajdhani:400,300,500,600,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    </head>
+<body>
+<div class="body-back">
+	<div class="masthead pdng-stn1">
+		<div id="menu" class="panel" role="navigation">
+			<div class="wrap-content">
+				<div class="profile-menu text-center">
+					<h2><a href="single.html">Dolled Up Beauty app</a></h2>
+					<img class="img-circle border-effect" src="images/wendy1.jpg" alt=" ">
+					<h3>Wendy lee</h3>
+					<h4>Cosmetologist</h4>
+					<div class="facebook">
+						<ul>
+							<li><a class="fb" href="https://www.facebook.com/fareedakelly.goordeen">Facebook</a></li>
+							<li><a class="twi" href="https://twitter.com/wendykdesigns">Twitter</a></li>
+							<li><a class="goo" href="https://plus.google.com/u/0/105190038059424579200">Google+</a></li>
+							<li><a class="pin" href="#">Pinterest</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="phone-box wrap push">
+			<div id="home" class="menu-notify">
+				<div class="profile-left">
+					<a href="#menu" class="menu-link"><i class="fa fa-chevron-left"></i></a>
+				</div>
+				<div class="Profile-mid logo">
+					<h1>
+						<a class="link link--yaku" href="single.html">
+							<span>D</span><span>o</span><span>l</span><span>l</span><span>e</span><span>d</span> <span>U</span><span>p</span> <span>B</span><span>e</span><span>a</span><span>u</span><span>t</span><span>y</span>					
+						</a>
+					</h1>
+				</div>
+				<div class="Profile-right">
+					<div id="dd1" class="wrapper-dropdown-1" tabindex="1"><i class="fa fa-home"></i>
+						<ul class="dropdown">
+							<li><a class="scroll" href="#home">Home </a></li>
+							<li><a class="scroll" href="#services">Services</a></li>
+							<li><a class="scroll" href="#appoint">Appointments</a></li>
+							<li><a class="scroll" href="#contact">Contact</a></li>
+						</ul>
+							<script type="text/javascript">
+														function DropDown(el) {
+															this.dd = el;
+															this.initEvents();
+														}
+														DropDown.prototype = {
+															initEvents : function() {
+																var obj = this;
+											
+																obj.dd.on('click', function(event){
+																	$(this).toggleClass('active');
+																	event.stopPropagation();
+																});	
+															}
+														}
+														$(function() {
+											
+															var dd = new DropDown( $('#dd1') );
+											
+															$(document).click(function() {
+																// all dropdowns
+																$('.wrapper-dropdown-1').removeClass('active');
+															});
+											
+														});
+							</script>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div> 
+			<div  class="banner">
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									 // Slideshow 4
+									$("#slider3").responsiveSlides({
+										auto: true,
+										pager: true,
+										nav: true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+									$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+										}
+										});
+										});
+				</script>
+				<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="screen_one">
+								
+							</div>
+						</li>
+						<li>
+							<div class="screen_three">
+							
+							</div>
+						</li>
+						<li>
+							<div class="screen_one">
+								
+							</div>
+						</li>
+						<li>
+							<div class="screen_three">
+							
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="like-icons text-center">
+				<ul>
+					<li>
+						<a href="#"><img src="images/3.png" alt=" " /></a>
+						<p>Eyebrows</p>
+					</li>
+					<li>
+						<a href="#"><img src="images/4.png" alt=" " /></a>
+						<p>Facials</p>
+					</li>
+					<li>
+						<a href="#"><img src="images/5.png" alt=" " /></a>
+						<p>Makeup</p>
+					</li>
+					<li>
+						<a href="#"><img src="images/6.png" alt=" " /></a>
+						<p>Hair styles</p>
+					</li>
+					<li>
+						<a href="#"><img src="images/7.png" alt=" " /></a>
+						<p>Facilities</p>
+					</li>
+				</ul>
+			</div>
+			<div id="services" class="menu-notify1">
+				<div class="profile-left">
+					<a href="#menu" class="menu-link"><i class="fa fa-chevron-left"></i></a>
+				</div>
+				<div class="Profile-mid logo2">
+					<h3>Our Specials</h3>
+				</div>
+				<div class="Profile-right">
+					<div id="dd2" class="wrapper-dropdown-2" tabindex="1"><i class="fa fa-home"></i>
+						<ul class="dropdown">
+							<li><a class="scroll" href="#home">Home </a></li>
+							<li><a class="scroll" href="#services">Services</a></li>
+							<li><a class="scroll" href="#appoint">Appointments</a></li>
+							<li><a class="scroll" href="#contact">Contact</a></li>
+						</ul>
+							<script type="text/javascript">
+														function DropDown(el) {
+															this.dd = el;
+															this.initEvents();
+														}
+														DropDown.prototype = {
+															initEvents : function() {
+																var obj = this;
+											
+																obj.dd.on('click', function(event){
+																	$(this).toggleClass('active');
+																	event.stopPropagation();
+																});	
+															}
+														}
+														$(function() {
+											
+															var dd = new DropDown( $('#dd2') );
+											
+															$(document).click(function() {
+																// all dropdowns
+																$('.wrapper-dropdown-2').removeClass('active');
+															});
+											
+														});
+							</script>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div> 
+			<div class="specials">
+				<div class="accordion">
+							<div class="accordion-section">
+								<a class="accordion-section-title" href="#accordion-1"><img src="images/a1.jpg" alt=" " />Hair Styling <i class="fa fa-chevron-down"></i><div class="clearfix"></div>
+								</a>
+								<div id="accordion-1" class="accordion-section-content">
+									<p>
+									<ol>Hair Setting</ol>
+									<ol>Flat Iron</ol>
+									<ol>Hair extensions (Braiding)</ol>
+									<ol>Cornrows<ol>
+									<ol>Blow Drying</ol>
+									</p>
+								</div>
+							</div>
+
+							<div class="accordion-section">
+								<a class="accordion-section-title" href="#accordion-2"><img src="images/a2.jpg" alt=" " />Eye brows shaping <i class="fa fa-chevron-down"></i><div class="clearfix"></div>
+								</a>
+								<div id="accordion-2" class="accordion-section-content">
+									<p>Perfectly sculpted eyebrows at an affordable price.</p>
+								</div>
+							</div>
+
+							<div class="accordion-section">
+								<a class="accordion-section-title" href="#accordion-3"><img src="images/a3.jpg" alt=" " />Manicure <i class="fa fa-chevron-down"></i><div class="clearfix"></div>
+								</a>
+								<div id="accordion-3" class="accordion-section-content">
+									<p>Don't have time to tidy your nails?  We'll do it for you and in the comfort of your own home!  Receive a full
+									manicure from filing to polishing in a colour of your choice.  Book an appointment today!!</p>
+								</div>
+							</div>
+							<div class="accordion-section">
+								<a class="accordion-section-title" href="#accordion-4"><img src="images/a4.jpg" alt=" " />Pedicure <i class="fa fa-chevron-down"></i><div class="clearfix"></div>
+								</a>
+								<div id="accordion-4" class="accordion-section-content">
+									<p>Relax tired feet with our full pedicure. Removal of dead skin, soothing foot soak and a massage will
+									have your feet feeling refreshed.  Add any colour of polish to your pedicure at no extra cost.</p>
+								</div>
+							</div>
+				</div>
+				<script>
+							jQuery(document).ready(function() {
+								function close_accordion_section() {
+									jQuery('.accordion .accordion-section-title').removeClass('active');
+									jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+								}
+
+								jQuery('.accordion-section-title').click(function(e) {
+									// Grab current anchor value
+									var currentAttrValue = jQuery(this).attr('href');
+
+									if(jQuery(e.target).is('.active')) {
+										close_accordion_section();
+									}else {
+										close_accordion_section();
+
+										// Add active class to section title
+										jQuery(this).addClass('active');
+										// Open up the hidden content panel
+										jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+									}
+
+									e.preventDefault();
+								});
+							});
+				</script>
+			</div>
+			<div class="bef-aft">
+				<div class="menu-notify2">
+					<div class="profile-left">
+						<a href="#menu" class="menu-link"><i class="fa fa-chevron-left"></i></a>
+					</div>
+					<div class="Profile-mid logo2">
+						<h3>Our Levels</h3>
+					</div>
+					<div class="Profile-right">
+						<div id="dd3" class="wrapper-dropdown-3" tabindex="1"><i class="fa fa-home"></i>
+							<ul class="dropdown">
+								<li><a class="scroll" href="#home">Home </a></li>
+								<li><a class="scroll" href="#services">Services</a></li>
+								<li><a class="scroll" href="#appoint">Appointments</a></li>
+								<li><a class="scroll" href="#contact">Contact</a></li>
+							</ul>
+								<script type="text/javascript">
+															function DropDown(el) {
+																this.dd = el;
+																this.initEvents();
+															}
+															DropDown.prototype = {
+																initEvents : function() {
+																	var obj = this;
+												
+																	obj.dd.on('click', function(event){
+																		$(this).toggleClass('active');
+																		event.stopPropagation();
+																	});	
+																}
+															}
+															$(function() {
+												
+																var dd = new DropDown( $('#dd3') );
+												
+																$(document).click(function() {
+																	// all dropdowns
+																	$('.wrapper-dropdown-3').removeClass('active');
+																});
+												
+															});
+								</script>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="levels">
+					<h3>We Care</h3>
+					<p>Please take a look around</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="treatments">
+				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion           
+								width: 'auto', //auto or any width like 600px
+								fit: true   // 100% fit in a container
+							});
+						});
+						
+					</script>
+					<div class="sap_tabs">
+							<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+								  <ul class="resp-tabs-list">
+									  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span><img class="img-responsive" src="images/creme-icon.png" alt=""></span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span><img class="img-responsive" src="images/blusher-icon.png" alt=""></span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span><img class="img-responsive" src="images/face-icon.png" alt=""></span></li>
+									  <div class="clearfix"></div>
+								  </ul>				  	 
+								<div class="resp-tabs-container">
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+										<div class="tab_img">
+											<div class="col-md-3 treat-left">
+												<div class="about_img"><img class="img-responsive" src="images/4.jpg" alt="">
+												  <h5>Lip Care</h5>
+												  <div class="about_opa">
+													<p>Get great tips for your beautiful lips!</p>
+												  </div>
+												</div>
+											</div>
+											<div class="col-md-3 treat-left">
+												<div class="about_img"><img class="img-responsive" src="images/8.jpg" alt="">
+												  <h5>Skin Care</h5>
+												  <div class="about_opa">
+													<p>Care of your skin is important, especially when you can't put a pause on natural aging.
+													Keep your skin looking good with a few non-sense tips from 
+													<a href="http://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/skin-care/art-20048237"/>Mayo Clinic</a>.</p>
+												  </div>
+												</div>
+											</div>
+											<div class="col-md-3 treat-left">
+												<div class="about_img"><img class="img-responsive" src="images/2.jpg" alt="">
+												  <h5>Pimples</h5>
+												  <div class="about_opa">
+													<p>Most of us experience this annoying stage in life.</p>
+												  </div>
+												</div>
+											</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+										<div class="tab_img">
+											<div class="accordion">
+												<div class="accordion-section">
+													<a class="accordion-section-title" href="#accordion-7">Makeup <i class="fa fa-chevron-down"></i><div class="clearfix"></div>
+													</a>
+													<div id="accordion-7" class="accordion-section-content">
+														<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices.</p>
+													</div>
+												</div>
+
+												<div class="accordion-section">
+													<a class="accordion-section-title" href="#accordion-8">Cleaning makeup tools <i class="fa fa-chevron-down"></i><div class="clearfix"></div>
+													</a>
+													<div id="accordion-8" class="accordion-section-content">
+														<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices.</p>
+													</div>
+												</div>
+
+												<div class="accordion-section">
+													<a class="accordion-section-title" href="#accordion-9">Choosing the right makeup <i class="fa fa-chevron-down"></i><div class="clearfix"></div>
+													</a>
+													<div id="accordion-9" class="accordion-section-content">
+														<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices.</p>
+													</div>
+												</div>
+												<div class="accordion-section">
+													<a class="accordion-section-title" href="#accordion-10">Your Personal Image <i class="fa fa-chevron-down"></i><div class="clearfix"></div>
+													</a>
+													<div id="accordion-10" class="accordion-section-content">
+														<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices.</p>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+										<div class="tab_img">
+											<div class="col-md-4 price-gds">
+													<div class="price-col1">
+													<ul class="pack-left">
+														<h5>Hair Styling</h5>
+														<li><a href="#">Braiding</a></li>
+														<li><a href="#">Hair Setting</a></li>
+													</ul>
+													<ul class="pack-right">
+														<li>$160.00</li>
+														<li>$150.00</li>
+													</ul>
+													<div class="clearfix"></div>
+												</div>
+											</div>
+											<div class="col-md-4 price-gds">
+												<div class="price-col1">
+													<ul class="pack-left">
+														<h5>Makeup and Face Care</h5>
+														<li><a href="#">Eyebrow Sculpting</a></li>
+														<li><a href="#">Makeup</a></li>
+														<li><a href="#">Deep Cleansing Facials</a></li>
+														<li><a href="#">Eyelash extensions</a></li>
+													</ul>
+													<ul class="pack-right">
+														<li>$30.00</li>
+														<li>$90.00</li>
+														<li>$140.00</li>
+														<li>$30.00</li>
+													</ul>
+													<div class="clearfix"></div>
+												</div>
+											</div>
+											<div class="col-md-4 price-gds">
+												<div class="price-col1">
+													<ul class="pack-left">
+														<h5>Nail Care</h5>
+														<li><a href="#">Manicure</a></li>
+														<li><a href="#">Pedicure</a></li>
+														<li><a href="#">File and Cuticle</a></li>
+														<li><a href="#">Polish Nails</a></li>
+														<li><a href="#">Patterns on nails</a></li>
+														<li><a href="#">Manicure or Pedicure w/pattern</a></li>
+														<li><a href="#">Nail Designs</a></li>
+													</ul>
+													<ul class="pack-right">
+														<li>$80.00</li>
+														<li>$140.00</li>
+														<li>$40.00</li>
+														<li>$35.00</li>
+														<li>$25.00</li>
+														<li>$20.00</li>
+														<li>$3.00/e</li>
+													</ul>
+													<div class="clearfix"></div>
+												</div>
+											</div>
+										
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+										<div class="tab_img">
+											<div class="col-md-6 people">
+												
+												<div class="clearfix"></div>
+											</div><!--fix here-->
+											<div class="clearfix"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+			</div>
+			<div id="appoint" class="book">
+				<div class="menu-notify2">
+					<div class="profile-left">
+						<a href="#menu" class="menu-link"><i class="fa fa-chevron-left"></i></a>
+					</div>
+					<div class="Profile-mid logo2">
+						<h3>Book an appointment</h3>
+					</div>
+					<div class="Profile-right">
+						<div id="dd4" class="wrapper-dropdown-4" tabindex="1"><i class="fa fa-home"></i>
+							<ul class="dropdown">
+								<li><a class="scroll" href="#home">Home </a></li>
+								<li><a class="scroll" href="#services">Services</a></li>
+								<li><a class="scroll" href="#appoint">Appointments</a></li>
+								<li><a class="scroll" href="#contact">Contact</a></li>
+							</ul>
+								<script type="text/javascript">
+															function DropDown(el) {
+																this.dd = el;
+																this.initEvents();
+															}
+															DropDown.prototype = {
+																initEvents : function() {
+																	var obj = this;
+												
+																	obj.dd.on('click', function(event){
+																		$(this).toggleClass('active');
+																		event.stopPropagation();
+																	});	
+																}
+															}
+															$(function() {
+												
+																var dd = new DropDown( $('#dd4') );
+												
+																$(document).click(function() {
+																	// all dropdowns
+																	$('.wrapper-dropdown-4').removeClass('active');
+																});
+												
+															});
+								</script>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="appoint reg">
+					<form>
+						<ul>
+							 <li class="text-info">Select Date: </li>
+							 <li><input class="date" id="datepicker" type="text" value="19/10/2015" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '19/10/2015';}" required=""></li>
+						</ul>
+						<ul>
+							<li class="text-info">Select Service: </li>
+							<li>
+								<div class="section_room">
+								  <select id="country" onchange="change_country(this.value)" class="frm-field required sect">
+										<option value="null">Facials</option>
+										<option value="null">Hair styling</option> 
+										<option value="null">Eyebrow Sculpting</option>
+										<option value="null">Pedicure</option>
+										<option value="null">Manicure</option>											
+								  </select>
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li class="text-info">Your Name: </li>
+							<li><input type="text" value=""></li>	
+						</ul>
+						<ul>
+							 <li class="text-info">Email: </li>
+							 <li><input type="text" value=""></li>
+						</ul>
+						<ul>
+							 <li class="text-info">Mobile Number:</li>
+							 <li><input type="text" value=""></li>
+						</ul>						
+						<input type="submit" value="BOOK NOW"> 
+					 </form>
+				</div>
+			</div>
+			<div id="contact" class="contact map-middle">
+				<div class="menu-notify1">
+					<div class="profile-left">
+						<a href="#menu" class="menu-link"><i class="fa fa-chevron-left"></i></a>
+					</div>
+					<div class="Profile-mid logo2">
+						<h3>Contact</h3>
+					</div>
+					<div class="Profile-right">
+						<div id="dd5" class="wrapper-dropdown-5" tabindex="1"><i class="fa fa-home"></i>
+							<ul class="dropdown">
+								<li><a class="scroll" href="#home">Home </a></li>
+								<li><a class="scroll" href="#services">Services</a></li>
+								<li><a class="scroll" href="#appoint">Appointments</a></li>
+								<li><a class="scroll" href="#contact">Contact</a></li>
+							</ul>
+								<script type="text/javascript">
+															function DropDown(el) {
+																this.dd = el;
+																this.initEvents();
+															}
+															DropDown.prototype = {
+																initEvents : function() {
+																	var obj = this;
+												
+																	obj.dd.on('click', function(event){
+																		$(this).toggleClass('active');
+																		event.stopPropagation();
+																	});	
+																}
+															}
+															$(function() {
+												
+																var dd = new DropDown( $('#dd5') );
+												
+																$(document).click(function() {
+																	// all dropdowns
+																	$('.wrapper-dropdown-5').removeClass('active');
+																});
+												
+															});
+								</script>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="contact-map text-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819"></iframe>
+					<div class="map-pos">
+						<h4>345 Diamond Street,</h4>
+						<p>Greece.</p>
+					</div>
+				</div>
+				<form>
+					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+					<input type="submit" value="Send" >
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.nicescroll.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
